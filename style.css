@@ -1,0 +1,45 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+    min-height: 8vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.logo {
+    padding: 5px;
+    margin: 0 10px;
+}
+
+a.logo svg{
+    width: 100px;
+}
+
+.expand {
+    margin: 0 20px;
+}
+
+.expand a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    margin: 0 2.5px;
+}
+
+/* PAGES */
+
+.section {
+    background-color: gainsboro;
+    height: 100vh;
+    width: 100%;
+}

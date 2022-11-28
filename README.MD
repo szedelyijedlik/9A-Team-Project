@@ -8,7 +8,7 @@
 4. Szerviz (Barbi)
 5. Audi Q8 e-tron (Szédelyi)
 6. Élményvilág (Barbi)
-7. Magyarországi márkakereskedés (Zsombor)
+7. Márkakereskedések (Zsombor)
 
 - CSS (Szédelyi)
 - Javascript (Zsombor, Szédelyi)
