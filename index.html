@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audi</title>
+    <title>Kezdőlap | Audi</title>
+    <link rel="icon" href="files/pictures/logo.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,16 +29,47 @@
         </a>
         <div class="expand desktop">
             <a href="./">Kezdőlap</a>
-            <a href="">Modellek</a>
-            <a href="">E-mobilitás</a>
-            <a href="">Szerviz</a>
-            <a href="">Audi Q8 e-tron</a>
-            <a href="">Élményvilág</a>
-            <a href="">Márkakereskedések</a>
+            <a href="modellek.html">Modellek</a>
+            <a href="E-mobilitás.html">E-mobilitás</a>
+            <a href="szerviz.html">Szerviz</a>
+            <a href="q8.html">Audi Q8 e-tron</a>
+            <a href="elmenyvilag.html">Élményvilág</a>
+            <a href="markakereskedes.html">Márkakereskedések</a>
+        </div>
+        <div class="mobile">
+            <a href="#" class="openBtn" onclick="openMenu()">Menü</a>
+            <div class="links">
+                <button class="closeBtn" onclick="closeMenu()">&times</button>
+                <div class="link">
+                    <a href="./">Kezdőlap</a>
+                    <a href="modellek.html">Modellek</a>
+                    <a href="E-mobilitás.html">E-mobilitás</a>
+                    <a href="szerviz.html">Szerviz</a>
+                    <a href="q8.html">Audi Q8 e-tron</a>
+                    <a href="elmenyvilag.html">Élményvilág</a>
+                    <a href="markakereskedes.html">Márkakereskedések</a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="section">
-
+    <div class="section firstVideo">
+        <video poster="files/pictures/rs7_1.jpg" autoplay playinline muted loop>
+            <source src="files/pictures/rs7_v1.mp4" type="video/mp4">
+        </video>
+        <div id="videoText">
+            <h1>Üdvözöljük az AUDI weboldalán!</h1>
+            <p>Tekintse meg jelenlegi <a href="modellek.html">modelleinket</a>, vagy görgessen további információért.</p>
+        </div>
+        <a href="#more-info">
+        <div id="scrollText">
+            <p>Görgessen további információért</p>
+            <img src="files/arrow.svg">
+        </div>
+        </a>
     </div>
+    <div class="section" id="more-info">
+        
+    </div>
+    <script src="files/nav.js"></script>
 </body>
 </html>
