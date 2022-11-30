@@ -116,6 +116,8 @@ video {
 .section {
     height: 100vh;
     width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .firstVideo {
@@ -156,12 +158,3 @@ video {
 
 /* KEZDOLAP */
 
-/* Modellek */
-
-#q7_Background {
-    width: 100%;
-}
-
-#q7_Image {
-    
-}
