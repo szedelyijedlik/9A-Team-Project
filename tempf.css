@@ -1,7 +1,21 @@
 /* Modellek */
 
-#q7_Image {
-    height: 200px;
+.models_q7 {
+    display: flex;
+    justify-content: center;
+}
+
+#q7_Info {
+    border: 1px solid red;
 
 }
+
+
+#q7_Title {
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 5%;
+
+} 
 
