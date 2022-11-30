@@ -156,5 +156,15 @@ video {
     margin-top: 5px;
 }
 
+.footer {
+    height: 4vh;
+    width: 100%;
+    background: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 /* KEZDOLAP */
 
