@@ -112,8 +112,6 @@ video {
     object-fit: cover;
 }
 
-/* KEZDOLAP */
-
 .section {
     height: 100vh;
     width: 100%;
@@ -138,3 +136,22 @@ video {
 .section #videoText a {
     color: white;
 }
+
+.section #scrollText {
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+}
+
+.section #scrollText img {
+    height: 25px;
+    margin-top: 5px;
+}
+
+/* KEZDOLAP */
+
