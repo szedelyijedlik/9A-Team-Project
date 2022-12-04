@@ -1,3 +1,94 @@
-h1 {
-    
+.section_service{
+    text-align: center;
+}
+
+h2{
+    padding:  2rem;
+}
+
+.form{
+    justify-content: center;
+    display: flex;
+}
+
+form{
+    width: 50%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+hr{
+    border-top: 1px solid #00000010;
+    margin: 1rem 0;
+}
+
+.float-start{
+    margin-left: 0px;
+    text-align: left;
+    justify-content: left;
+}
+
+.input-style{
+    padding: 0.5rem;
+    border: 1px solid #00000080
+}
+.float-end{
+    float: right;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.select:invalid{
+    color: #00000080 !important;
+}
+
+.first{
+    border-right: 0px;  
+    margin-right: -5px;
+}
+
+.last{
+    border-left: 0px;  
+    text-align: right;
+}
+
+.last:focus, .first:focus{
+    outline: none !important; 
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.w-53{
+    width: 53%;
+}
+
+.w-49{
+    width: 49%;
+}
+
+.w-42{
+    width: 42%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.connect{
+    padding: 0.5rem;
 }
