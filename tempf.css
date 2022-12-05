@@ -1,27 +1,27 @@
 /* Modellek */
 
-.models_q7 {
-    display: flex;
-    justify-content: center;
+.secModels {
+    min-height: 50vh;
 }
 
-
-#q7_Title {
-    color: white;
-    text-align: center;
-    margin-top: 5%;
-
-} 
-
-#q7_Info p {
-    border: 1px solid rgba(255, 255, 255, 20%);
-    background-color: rgba(40, 40, 40, 30%);
-    color: white;
-    max-width: 20%;
-    margin-left: 60%;
-    margin-top: 8%;
-    padding: 10px;
+.secModels img {
+    height: 50vh;
+    padding: 30px;
+    float: left;
 }
 
+.modelsText {
+    height: 100%;
+    padding: 30px;
+}
 
+.modelsText p {
+    margin-top: 20px;
+}
 
+@media(max-width: 700px){
+    .secModels img {
+        height: initial;
+        width: 100%;
+    }
+}

@@ -225,10 +225,9 @@ video {
 
 .card p {
     margin-top: 30px;
-    text-align: justify;
     font-size: 17px;
     font-weight: 200;
-    color: rgb(252, 252, 252)
+    color: rgb(252, 252, 252);
 }
 
 .cardimg {
