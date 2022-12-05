@@ -188,6 +188,10 @@ video {
 
 /* KEZDOLAP */
 
+.cardSec {
+    height: 70vh;
+}
+
 .cards {
     height: 100%;
     display: flex;
@@ -197,8 +201,8 @@ video {
 
 .card {
     display: inline;
-    height: 85vh;
-    width: 30vw;
+    height: 60vh;
+    width: 25vw;
     margin: 25px;
     transition: transform 1s;
     border-radius: 30px;
@@ -247,12 +251,12 @@ video {
     }
     .card {
         display: block;
-        width: 95%;
+        width: 94%;
         margin: 20px auto;
-        height: 74vh;
+        height: 65vh;
     }
     .cardSec {
-        height: 230vh;
+        height: 205vh;
     }
     .card h2 {
         font-size: 26px;
