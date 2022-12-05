@@ -38,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(40, 40, 40, 30%);
+    background: rgba(40, 40, 40, 15%);
     border-bottom: .5px solid rgba(255, 255, 255, 20%);
     z-index: 2;
 }
@@ -199,9 +199,8 @@ video {
     display: inline;
     height: 85vh;
     width: 30vw;
-    margin: 20px;
+    margin: 25px;
     transition: transform 1s;
-    border: 1px groove rgba(40, 40, 40, 20%);
     border-radius: 30px;
     text-decoration: none;
 }
@@ -209,9 +208,13 @@ video {
 .cardDiv {
     height: 100%;
     width: 100%;
-    padding: 25px;
+    padding: 30px;
     border-radius: 30px;
     background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);
+    transition: filter 1s;
+    transition: transform 1s;
 }
 
 .card h2 {
@@ -219,7 +222,6 @@ video {
     font-size: xx-large;
     color: white;
 }
-
 
 .card p {
     margin-top: 30px;
@@ -234,14 +236,10 @@ video {
     bottom: 0;
 }
 
-.card img {
-    width: 100%;
-
-}
-
-.card:hover {
+.card:hover .cardDiv {
     transform: scale(101%);
     transition: all .5s;
+    filter: brightness(1);
 }
 
 @media(max-width: 1100px){
