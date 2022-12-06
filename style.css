@@ -193,6 +193,16 @@ video {
     }
 }
 
+/* META > KÉP FLOAT */
+
+#rightImg {
+    float: right;
+}
+
+#leftImg {
+    float: left;
+}
+
 /* KEZDOLAP */
 
 .cardSec {
@@ -278,13 +288,12 @@ video {
 .greenContent {
     width: 100%;
     height: 100%;
-    padding: 15px;
+    padding: 5vh 15vw;
 }
 
 .greenContent img {
     height: 100%;
-    float: left;
-    margin-right: 15px;
+    margin: 0 50px;
     padding: 5px;
 }
 
@@ -292,18 +301,51 @@ video {
     padding: 5px 0;
 }
 
-.greenText > * {
-    margin-bottom: 15px;
+.greenText p {
+    color: #505050;
+}
+
+.greenText h2 {
+    font-size: 2.7vh;
+}
+
+.greenTextR {
+    padding: 5px 0;
+    text-align: right;
+}
+
+.greenTextR p {
+    color: #505050;
+}
+
+.greenTextR h2 {
+    font-size: 2.7vh;
+}
+
+.greenText > *, .greenTextR > * {
+    margin-bottom: 20px;
 }
 
 @media(max-width: 1300px){
     .greenContent img {
         height: auto;
         width: 100%;
-        float: none;
+        margin: 0;
+    }
+
+    .greenContent {
+        padding: 15px;
     }
 
     .greenSec {
         min-height: 100vh;
+    }
+
+    #leftImg {
+        float: none;
+    }
+
+    #rightImg {
+        float: none;
     }
 }
