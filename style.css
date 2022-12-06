@@ -109,6 +109,12 @@ a.logo svg{
     right: 15px;
 }
 
+@media(max-width: 600px){
+    .header {
+        min-height: 10vh;
+    }
+}
+
 /* META */
 
 video { 
@@ -154,6 +160,7 @@ video {
 
 .section #scrollText p {
     color: white;
+    font-size: large;
     margin: 5px;
 }
 
@@ -234,11 +241,6 @@ video {
     color: rgb(252, 252, 252);
 }
 
-.cardimg {
-    position: absolute;
-    bottom: 0;
-}
-
 .card:hover .cardDiv {
     transform: scale(101%);
     transition: all .5s;
@@ -263,5 +265,44 @@ video {
     }
     .card p {
         font-size: 16px;
+    }
+}
+
+/* E-MOBILITÁS */
+
+.greenSec {
+    height: 50vh;
+    display: flex;
+}
+
+.greenContent {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.greenContent img {
+    height: 100%;
+    float: left;
+    margin-right: 15px;
+}
+
+.greenText {
+    padding: 5px 0;
+}
+
+.greenText > * {
+    margin-bottom: 15px;
+}
+
+@media(max-width: 1300px){
+    .greenContent img {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+
+    .greenSec {
+        min-height: 100vh;
     }
 }
