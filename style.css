@@ -289,15 +289,6 @@ video {
     width: 100%;
     height: 100%;
     padding: 5vh 15vw;
-    transform: translateX(-400%);
-}
-
-.greenContent:nth-child(even){
-    transform: translateX(400%);
-}
-
-.greenContent.show {
-    transform: translateX(0);
 }
 
 .greenContent img {
