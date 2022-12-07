@@ -4,6 +4,7 @@
 
 h2{
     padding:  2rem;
+    text-align: center;
 }
 
 .form{
@@ -73,6 +74,10 @@ select {
     width: 53%;
 }
 
+.w-52{
+    width: 47%;
+}
+
 .w-49{
     width: 49%;
 }
@@ -91,4 +96,28 @@ select {
 
 .connect{
     padding: 0.5rem;
+}
+
+.szerviz{
+    text-align: justify;
+    margin: 0% 15% 0% 15%;
+    padding: 2rem;
+    border: 1px solid white;
+}
+
+li{
+    list-style-type: circle; 
+}
+
+@media(max-width: 700px){
+    .szerviz {
+        font-size: smaller;
+        margin: 0% 5% 0% 5%;
+    }
+    form {
+        width: 75%;
+    }
+    .input-style {
+        font-size: 10px;
+    }
 }
