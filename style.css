@@ -220,9 +220,9 @@ video {
     display: inline;
     height: 60vh;
     width: 25vw;
-    margin: 25px;
+    margin: 30px;
     transition: transform 1s;
-    border-radius: 30px;
+    border-radius: 30px 10px 30px 10px;
     text-decoration: none;
 }
 
@@ -230,12 +230,11 @@ video {
     height: 100%;
     width: 100%;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 30px 10px 30px 10px;
     background-position: center;
     background-size: cover;
     filter: brightness(0.9);
-    transition: filter 1s;
-    transition: transform 1s;
+    transition: all 1s;
 }
 
 .card h2 {
@@ -255,6 +254,7 @@ video {
     transform: scale(101%);
     transition: all .5s;
     filter: brightness(1);
+    transform: translateY(-15px) translateX(-1px);
 }
 
 @media(max-width: 1100px){
@@ -268,7 +268,7 @@ video {
         height: 65vh;
     }
     .cardSec {
-        height: 205vh;
+        min-height: 270vh;
     }
     .card h2 {
         font-size: 26px;
@@ -289,6 +289,15 @@ video {
     width: 100%;
     height: 100%;
     padding: 5vh 15vw;
+    transform: translateX(-400%);
+}
+
+.greenContent:nth-child(even){
+    transform: translateX(400%);
+}
+
+.greenContent.show {
+    transform: translateX(0);
 }
 
 .greenContent img {
