@@ -338,7 +338,7 @@ video {
     }
 
     .greenSec {
-        min-height: 100vh;
+        height: auto;
     }
 
     #leftImg {
