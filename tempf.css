@@ -36,3 +36,20 @@ h1 {
 }
 
 /* Márkakereskedések */
+
+.mapsSection {
+    height: 60vh;
+
+}
+
+iframe {
+    height: 60vh;
+    width: 70%;
+    float: left;
+}
+
+td {
+    background-color: green;
+    width: 100%;
+    height: 20vh;
+}
