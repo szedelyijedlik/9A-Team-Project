@@ -121,3 +121,21 @@ li{
         font-size: 10px;
     }
 }
+
+.text {
+    text align: center;
+    font-size: 1rem;
+}
+
+.events {
+    width: 100%;
+}
+
+#events {
+    width: 500px;
+    float: left;
+}
+
+.esemény {
+    width: 100%;
+}
