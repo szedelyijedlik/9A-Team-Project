@@ -58,7 +58,7 @@
         <div id="center">
             <div id="videoText">
                 <h1>Márkakereskedéseink</h1>
-                <p>Tekintse meg jelenlegi összes magyarországi márkakereskerésünket.</p>
+                <p>Tekintse meg jelentősebb magyarországi márkakereskedéseinket.</p>
             </div>
             <div id="scrollText">
                 <a href="#more-info">
@@ -75,19 +75,40 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21488.77541784957!2d17.632352849999997!3d47.682537550000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shu!2shu!4v1670401561947!5m2!1shu!2shu"  style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
             <table>
-                <tr>
-                    <td>asd</td>
+                <tr onclick="mapsBudapest()">
+                    <td>
+                            <button onclick="mapsBudapest()">Audi Centrum Budapest</button>
+                        <br>
+                            <p class="address">Budapest, Mozaik u. 1-3., 1033</p>
+                        <br>
+                            <button class="detailsButton">Részletek</button>
+                    </td>
                 </tr>
-                <tr>
-                    <td>asd2</td>
+                <tr onclick="mapsGyőr()">
+                    <td>
+                        <button onclick="mapsGyőr()">Győr</button>
+                    <br>
+                        <p class="address">Győr, Audi Hungária út 1, 9027</p>
+                    <br>
+                        <button class="detailsButton">Részletek</button> 
+                </td>
                 </tr>
-                <tr>
-                    <td>asd3</td>
+                <tr onclick="mapsDebrecen()">
+                    <td>
+                            <button onclick="mapsDebrecen()">Debrecen</button>
+                        <br>
+                            <p class="address">Debrecen, Mikepércsi út 23-33, 4030</p>
+                        <br>
+                            <button class="detailsButton">Részletek</button>
+                    
+                </td>
                 </tr>
             </table>
-            <button onclick="mapsBudapest()">Budapest</button>
-            <button onclick="mapsGyőr()">Győr</button>
-            <button onclick="mapsDebrecen()">Debrecen</button>
+            <div id="Budapest">
+                <img src="files/pictures/Budapest_1.jpg" alt="">
+            </div>
+            <div id="Győr"></div>
+            <div id="Debrecen"></div>
         </div>
     </div>
 

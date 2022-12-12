@@ -48,8 +48,32 @@ iframe {
     float: left;
 }
 
+
 td {
-    background-color: green;
     width: 100%;
     height: 20vh;
+    border: 1px solid red;
+    padding: 5px 80px;
+}
+
+button, .address {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.detailsButton {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
 }
