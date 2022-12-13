@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-h2{
+#szerviz {
     padding:  2rem;
     text-align: center;
 }
@@ -109,6 +109,27 @@ li{
     list-style-type: circle; 
 }
 
+#heavy {
+    font-size: 4.25rem;
+}
+
+.bevezetés {
+    padding: 7.5%;
+    margin: -3% 3% 0% 3% ;
+    text-align: center;
+}
+
+.size {
+    margin: 0% 18% 18% 18%;
+}
+
+#elmeny {
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
 @media(max-width: 700px){
     .szerviz {
         font-size: smaller;
@@ -120,22 +141,66 @@ li{
     .input-style {
         font-size: 10px;
     }
+    #heavy {
+        font-size: 2.5rem;
+    }
+    .events {
+        margin: 0%;
+    }
+    .events td {
+        padding: none;
+    }
+    .size {
+        margin: 0%;
+    }
+    table {
+        padding: 0%;
+    }
+    img {
+        width: 200px;
+    }
+    .events td {
+        padding: 0.75rem 0.75rem !important;
+    }
+    .collection {
+        margin: 0% 5% 0% 5% !important;
+    }
 }
 
-.text {
-    text align: center;
-    font-size: 1rem;
+.choose-table img{
+    cursor: pointer;
 }
 
-.events {
-    width: 100%;
+a:hover {
+    
 }
 
-#events {
-    width: 500px;
-    float: left;
+.events td {
+    padding: 1.5rem 3rem;
 }
 
-.esemény {
-    width: 100%;
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.75rem;
+    text-decoration: underline;
+}
+
+#boatshow {
+    display: block;
+    margin-left: auto;
+    width: 50%;
+}
+
+table {
+    padding: 0% 0% 5% 0%;
+}
+
+.collection {
+    margin: 0% 18% 18% 18%;
+    font-size: 1.5rem;
+    text-align: center;
 }
