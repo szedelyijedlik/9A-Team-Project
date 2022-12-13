@@ -38,13 +38,13 @@ h1 {
 /* Márkakereskedések */
 
 .mapsSection {
-    height: 60vh;
+    height: auto;
 
 }
 
 iframe {
     height: 60vh;
-    width: 70%;
+    width: 75%;
     float: left;
 }
 
@@ -52,8 +52,7 @@ iframe {
 td {
     width: 100%;
     height: 20vh;
-    border: 1px solid red;
-    padding: 5px 80px;
+    padding: 5px 50px;
 }
 
 button, .address {
@@ -64,10 +63,6 @@ button, .address {
     font-weight: bold;
 }
 
-td:hover {
-    cursor: pointer;
-}
-
 button:hover {
     cursor: pointer;
 }
@@ -76,4 +71,11 @@ button:hover {
     background-color: black;
     color: white;
     padding: 10px 10px;
+}
+
+@media(max-width: 1200px) {
+    iframe {
+        width: 100%;
+    }
+    
 }
